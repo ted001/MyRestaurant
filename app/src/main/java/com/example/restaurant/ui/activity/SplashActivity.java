@@ -1,4 +1,4 @@
-package com.example.restaurant.ui;
+package com.example.restaurant.ui.activity;
 
 import android.content.Intent;
 import android.os.Bundle;

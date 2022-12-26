@@ -3,8 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools">
     <uses-permission android:name="android.permission.INTERNET" />
     <application
+        android:name=".ResApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
+        android:usesCleartextTraffic="true"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -13,7 +15,7 @@
         android:theme="@style/AppTheme_FullScreen"
         tools:targetApi="31">
         <activity
-            android:name=".ui.SplashActivity"
+            android:name=".ui.activity.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,9 +28,9 @@
                 android:value="" />
         </activity>
         <activity android:name="com.example.restaurant.MainActivity" />
-        <activity android:name="com.example.restaurant.ui.LoginActivity" />
-        <activity android:name="com.example.restaurant.ui.RegisterActivity" />
-        <activity android:name="com.example.restaurant.ui.OrderActivity" />
+        <activity android:name="com.example.restaurant.ui.activity.LoginActivity" />
+        <activity android:name="com.example.restaurant.ui.activity.RegisterActivity" />
+        <activity android:name="com.example.restaurant.ui.activity.OrderActivity" />
     </application>
 
 </manifest>
