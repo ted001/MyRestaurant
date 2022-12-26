@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.restaurant.R;
 import com.example.restaurant.bean.Order;
 import com.example.restaurant.config.Config;
+import com.example.restaurant.ui.activity.OrderDetailActivity;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
@@ -71,7 +72,7 @@ public class OrderAdapter extends RecyclerView.Adapter<OrderAdapter.OrderItemVie
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    //OrderDetailActivity.launch(mContext, mDatas.get(getAdapterPosition()));
+                    OrderDetailActivity.launch(mContext, mDatas.get(getAdapterPosition()));
                 }
             });
 

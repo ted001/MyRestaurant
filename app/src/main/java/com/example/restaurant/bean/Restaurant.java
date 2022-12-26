@@ -27,7 +27,7 @@ public class Restaurant implements Serializable {
     }
 
     public String getName() {
-        return name;
+        return "云餐厅";
     }
 
     public void setName(String name) {

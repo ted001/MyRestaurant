@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+
     <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:name=".ResApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
-        android:usesCleartextTraffic="true"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme_FullScreen"
+        android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
             android:name=".ui.activity.SplashActivity"
@@ -28,12 +29,20 @@
                 android:value="" />
         </activity>
         <activity android:name="com.example.restaurant.MainActivity" />
-        <activity android:name="com.example.restaurant.ui.activity.LoginActivity"
-            android:theme="@style/AppTheme_NoTitleBar"/>
-        <activity android:name="com.example.restaurant.ui.activity.RegisterActivity"
+        <activity
+            android:name="com.example.restaurant.ui.activity.LoginActivity"
+            android:theme="@style/AppTheme_NoTitleBar" />
+        <activity
+            android:name="com.example.restaurant.ui.activity.RegisterActivity"
             android:label="@string/title_activity_register"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.example.restaurant.ui.activity.OrderActivity" />
+        <activity android:name="com.example.restaurant.ui.activity.OrderDetailActivity" />
+        <activity android:name="com.example.restaurant.ui.activity.ProductDetailActivity" />
+        <activity
+            android:name="com.example.restaurant.ui.activity.ProductListActivity"
+            android:label="@string/title_activity_product_list"
+            android:theme="@style/AppTheme_NoTitleBar" />
     </application>
 
 </manifest>

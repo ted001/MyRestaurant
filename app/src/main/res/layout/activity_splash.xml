@@ -15,14 +15,17 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:background="@drawable/splash" />
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:layout_gravity="center"
-            android:src="@drawable/splash_bottom" />
     </LinearLayout>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:text="云餐厅" />
 
     <Button
         android:id="@+id/id_btn_skip"
