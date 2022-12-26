@@ -56,8 +56,9 @@
 
     <TextView
         android:id="@+id/id_btn_register"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:gravity="center"
         android:layout_below="@id/id_btn_login"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
