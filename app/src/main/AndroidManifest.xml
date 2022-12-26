@@ -28,8 +28,11 @@
                 android:value="" />
         </activity>
         <activity android:name="com.example.restaurant.MainActivity" />
-        <activity android:name="com.example.restaurant.ui.activity.LoginActivity" />
-        <activity android:name="com.example.restaurant.ui.activity.RegisterActivity" />
+        <activity android:name="com.example.restaurant.ui.activity.LoginActivity"
+            android:theme="@style/AppTheme_NoTitleBar"/>
+        <activity android:name="com.example.restaurant.ui.activity.RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name="com.example.restaurant.ui.activity.OrderActivity" />
     </application>
 

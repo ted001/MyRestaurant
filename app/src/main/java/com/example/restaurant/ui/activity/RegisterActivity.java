@@ -87,5 +87,10 @@ public class RegisterActivity extends BaseActivity {
         mBtnRegister = (Button) findViewById(R.id.id_btn_register);
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        mUserBiz.onDestory();
+    }
 
 }

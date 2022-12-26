@@ -175,4 +175,9 @@ public class LoginActivity extends BaseActivity {
         context.startActivity(intent);
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        mUserBiz.onDestory();
+    }
 }
