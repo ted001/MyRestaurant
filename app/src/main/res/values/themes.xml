@@ -12,4 +12,12 @@
     <style name="AppTheme_FullScreen" parent="AppTheme_NoTitleBar">
         <item name="android:windowFullscreen">true</item>
     </style>
+
+    <style name="Button_Login" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/btn_bg_black</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18sp</item>
+    </style>
 </resources>
