@@ -1,4 +1,4 @@
-package com.example.myrestaurant;
+package com.example.restaurant;
 
 import android.content.Context;
 

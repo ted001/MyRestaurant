@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.myrestaurant'
+    namespace 'com.example.restaurant'
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.myrestaurant"
+        applicationId "com.example.restaurant"
         minSdk 21
         targetSdk 32
         versionCode 1
